@@ -143,7 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -152,15 +152,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
-    <label>Related Contact</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Error Log</label>
     <nameField>
-        <displayFormat>CJ-{00000}</displayFormat>
-        <label>Related Contact Name</label>
+        <displayFormat>ERR-{00000}</displayFormat>
+        <label>Error Log Number</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Related Contacts</pluralLabel>
+    <pluralLabel>Error Logs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
 </CustomObject>
